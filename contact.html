@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Melanie Zarzur</title>
+<link rel="icon" type="image/png" href="images/favicon.png">
+<meta name="description" content="Get in touch with Melanie Zarzur, Product Manager leading immersive digital products at Magnopus.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #17181c;
+    --text: #ededea;
+    --text-dim: #a8aab0;
+    --text-faint: #6b6d73;
+    --line: #2b2d33;
+    --accent: #6fd6bd;
+    --font-serif: 'Newsreader', serif;
+    --font-sans: 'Inter', sans-serif;
+  }
+
+  *{ box-sizing:border-box; margin:0; padding:0; }
+
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--font-sans);
+    font-size:16px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  a{ color:var(--accent); text-decoration-thickness:1px; text-underline-offset:3px; }
+
+  .wrap{
+    max-width:680px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+
+  header.nav{ border-bottom:1px solid var(--line); }
+  .nav-inner{
+    max-width:680px; margin:0 auto; padding:0 24px;
+    height:64px; display:flex; align-items:center; justify-content:space-between;
+  }
+  .nav-mark{ font-family:var(--font-serif); font-size:17px; text-decoration:none; color:var(--text); }
+  .nav-links{ display:flex; gap:26px; list-style:none; }
+  .nav-links a{ font-size:13px; color:var(--text-dim); text-decoration:none; }
+  .nav-links a:hover, .nav-links a.active{ color:var(--text); }
+
+  .hero{ padding:88px 0 72px; }
+  .hero .eyebrow{ font-size:13px; color:var(--text-faint); letter-spacing:0.04em; margin-bottom:18px; }
+  .hero h1{
+    font-family:var(--font-serif); font-weight:500;
+    font-size:clamp(40px, 6vw, 52px); line-height:1.1; margin-bottom:16px;
+  }
+  .hero p.thesis{ max-width:520px; font-size:17px; color:var(--text-dim); margin-bottom:26px; }
+
+  section{ padding:64px 0; border-top:1px solid var(--line); }
+  h2{ font-family:var(--font-serif); font-weight:500; font-size:24px; margin-bottom:32px; }
+
+  .contact-title{ font-family:var(--font-serif); font-weight:500; font-size:clamp(26px, 4vw, 34px); max-width:520px; margin-bottom:24px; }
+  .contact-list{ display:flex; flex-direction:column; gap:10px; }
+  .contact-list a{ font-size:15px; text-decoration:none; color:var(--text); border-bottom:1px solid var(--line); padding-bottom:2px; width:fit-content; }
+  .contact-list a:hover{ color:var(--accent); border-color:var(--accent); }
+
+  footer{ padding:36px 0 48px; text-align:center; font-size:12px; color:var(--text-faint); border-top:1px solid var(--line); }
+
+  @media (max-width:600px){
+    .nav-links{ gap:14px; }
+    section{ padding:48px 0; }
+  }
+  img{ -webkit-user-drag:none; user-select:none; -webkit-touch-callout:none; }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="nav-mark" href="index.html">Melanie Zarzur</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" style="border-top:none;">
+    <div class="eyebrow">Product Manager</div>
+    <h1>Melanie Zarzur</h1>
+    <p class="thesis">From concept to launch, I bring together engineering, creative, and product teams to build immersive experiences powered by emerging technologies. My focus is on creating products that feel intuitive, memorable, and genuinely fun to use.</p>
+  </section>
+
+  <section id="contact" style="padding-top:0;">
+    <h2>Contact</h2>
+    <div class="contact-title">Have an ambitious idea or immersive product in the works? I'd love to help bring it to life.</div>
+    <div class="contact-list">
+      <a href="https://www.linkedin.com/in/melanie-zarzur-42371319b/" target="_blank" rel="noopener">linkedin.com/in/melanie-zarzur</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>© 2026 Melanie Zarzur</footer>
+
+</body>
+</html>
